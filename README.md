@@ -1,2 +1,20 @@
-# Amanda-Preiser-P2-
-Project 2 a platform 
+# Amanda-Preiser-P2- css
+.background    { background: rgb(52, 166, 251);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100); }
+.wall          { background: white;   }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(241, 229, 89); }
+.player { background: rgb(255, 0, 255); }
+.evil   {background: rgb(250, 64, 2)}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+ 
